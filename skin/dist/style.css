@@ -1,0 +1,389 @@
+@charset "utf-8";
+
+/* 반드시 들어가야 하는 스타일 시작 */
+
+/* 1. 본문 전체  */
+
+	body,td { 
+								font: 12px/1.5 Dotum, Verdana, AppleGothic, Sans-serif;
+                color:#333333; 
+                line-height:18px; 
+
+	}
+
+/* 2. 기본 링크 */
+	A:link    {color:#000000;text-decoration:underline;}
+	A:visited {color:#000000;text-decoration:underline;}
+	A:active  {color:#000000;text-decoration:underline;}
+	A:hover  {color:#ffffff;text-decoration:underline;}
+
+
+/* 3. 이미지 */
+
+	img {
+		border-width:0px;
+	}
+
+/* 4. 이미지 버튼 */
+
+	.ib {
+		cursor:pointer;
+	}
+
+/* 5. 입력 텍스트 */
+
+	.text {
+	        border: 1px solid #675441; 
+			background:url(./img/paper_dark.gif);	
+	        height:18px; 
+	        color: #666666; 
+	        font-size: 11px; 
+	        padding: 2px 2px 0px 4px;
+	}
+
+/* 6. 트리 셀 */
+
+	.branch3 {
+		line-height:14px;
+		cursor:pointer;
+		height:17px;
+		padding:2px 2px 0px 2px;
+	}
+
+/* 7. 달력 월 표시 */
+
+	.cal_month {
+		vertical-align:top;
+		height:18px;
+		font-size:11px;
+		font-family:verdana;
+		text-align:center;
+		font-weight:bold;
+	}
+
+/* 8. 달력 요일 표시 */
+
+	.cal_week1 {
+		text-align:center;
+		font-size:10px;
+		font-family:verdana;
+		font-weight:bold;
+	}
+
+/* 9. 달력 일요일 표시 */
+
+	.cal_week2 {
+		color:#CC0000;
+		text-align:center;
+		font-size:10px;
+		font-family:verdana;
+		font-weight:bold;
+	}
+
+/* 10. 달력 지난 달 날짜 표시 */
+
+	.cal_day1 {
+		color:#FAFAFA;
+		font-size:10px;
+		font-family:verdana;
+		text-align:center;
+	}
+
+/* 11. 달력 다음 달 날짜 표시 */
+
+	.cal_day2 {
+		color:#FAFAFA;
+		font-size:10px;
+		font-family:verdana;
+		text-align:center;
+	}
+
+/* 12. 달력 이번 달 날짜 표시 */
+
+	.cal_day3 {
+		font-size:10px;
+		font-family:verdana;
+		text-align:center;
+	}
+
+/* 13. 달력 오늘 날짜 표시 */
+
+	.cal_day4 {
+		font-size:10px;
+		font-family:verdana;
+		text-align:center;
+		font-weight:bold;
+                background-color:eeeeee	
+	}
+
+/* 14. 달력 글쓴 날 링크 스타일 */
+
+	A.cal_click:link {
+		font-weight:bold;
+	}
+
+	A.cal_click:visited {
+		font-weight:bold;
+	}
+
+	A.cal_click:hover {
+		font-weight:bold;
+	}
+
+/* 15. 이미지 아래 캡션 스타일 */
+
+	.cap1 {
+		text-align:center;
+		color:#300099;
+		word-break:break-all;
+	}
+
+/* 16. 키워드 스타일 */
+
+	.key1 {
+		cursor:pointer;
+		text-decoration:none;
+		border-bottom: 1px solid gray;
+	}
+
+/* 17. 카테고리 옆 개수 스타일 */
+
+	.c_cnt {
+		font-size:10px;
+		font-family:tahoma;
+	}
+
+/* 18. 최신글 옆 개수 스타일 */
+
+	.ps_cnt {
+		font-size:10px;
+		font-family:tahoma;
+		color:#308FC9;
+	}
+	
+/* 19.태그클라우드 */
+.cloud1 {
+  font-size : 14px;
+  font-weight: bold;
+  color : #ffffff !important ;
+  }
+
+.cloud2 {
+  font-size : 13px;
+  font-weight: bold;
+  color : #000000 !important ;
+  }
+
+.cloud3 {
+  font-size : 10pt;
+  font-weight: bold;
+  color : #ffffff !important ;
+  }
+
+.cloud4 {
+  font-size : 10pt;
+  color : #000000 !important ;
+  }
+
+.cloud5 {
+  font-size : 11px;
+  color : #000000 !important ;
+  }
+
+	
+.tag_txt {color:#ffffff; font-weight:bold;}
+
+
+.title {font-size:20px; color:333333; font-weight:bold;}
+A.title:link {font-size:20px; color:333333; font-weight:bold;}
+A.title:visited {font-size:20px;  color:333333; font-weight:bold;}
+A.title:active {font-size:20px;  color:333333; font-weight:bold;}
+A.title:hover {font-size:20px;  color:333333; font-weight:bold;}s
+
+.sthm {font-size:10px; font-family:tahoma; letter-spacing:0px;}
+A.sthm:link {font-size:10px; font-family:tahoma; letter-spacing:0px;}
+A.sthm:visited {font-size:10px; font-family:tahoma; letter-spacing:0px;}
+A.sthm:active {font-size:10px; font-family:tahoma; letter-spacing:0px;}
+A.sthm:hover {font-size:10px; font-family:tahoma; letter-spacing:0px;}
+
+.sver {font-size:10px; font-family:verdana; letter-spacing:0px;}
+A.sver:link {font-size:10px; font-family:verdana; letter-spacing:0px;}
+A.sver:visited {font-size:10px; font-family:verdana; letter-spacing:0px;}
+A.sver:active {font-size:10px; font-family:verdana; letter-spacing:0px;}
+A.sver:hover {font-size:10px; font-family:verdana; letter-spacing:0px;}
+
+
+.disc {font-size:10pt; font-family:Verdana;}
+
+.sdot {font-size:11px; font-family:Verdana; font-weight:bold; color:#C5A37C;}
+A.sdot:link {font-size:11px; font-family:Verdana; font-weight:bold; color:#C5A37C;}
+A.sdot:visited {font-size:11px; font-family:Verdana; font-weight:bold; color:#C5A37C;}
+A.sdot:active {font-size:11px; font-family:Verdana; font-weight:bold; color:#C5A37C;}
+A.sdot:hover {font-size:11px; font-family:Verdana; font-weight:bold; color:#FFFFFF;}
+
+
+
+
+.util_menu {font-size:11px; font-family:Verdana; color:#333333;}
+A.util_menu:link {font-size:11px; font-family:Verdana;  color:#333333;}
+A.util_menu:visited {font-size:11px; font-family:Verdana;  color:#333333;}
+A.util_menu:active {font-size:11px; font-family:Verdana; color:#333333;}
+A.util_menu:hover {font-size:11px; font-family:Verdana; color:#ffffff;}
+
+
+
+
+.head_title {font-size:14px; font-family:Verdana; color:#000000; font-weight:bold; text-decoration:none;}
+A.head_title:link {font-size:14px; font-family:Verdana; color:#000000; font-weight:bold; text-decoration:none;}
+A.head_title:visited {font-size:14px; font-family:Verdana; color:#000000; font-weight:bold; text-decoration:none;}
+A.head_title:active {font-size:14px; font-family:Verdana; color:#000000; font-weight:bold; text-decoration:none;}
+A.head_title:hover {font-size:14px; font-family:Verdana; color:#ffffff; font-weight:bold; text-decoration:underline;}
+
+
+.gbtn_kor {font-size:11px; font-family:Verdana; color:333333;}
+A.gbtn_kor:link {font-size:11px; font-family:Verdana; color:333333;}
+A.gbtn_kor:visited {font-size:11px; font-family:Verdana; color:333333;}
+A.gbtn_kor:active {font-size:11px; font-family:Verdana; color:333333;}
+A.gbtn_kor:hover {font-size:11px; font-family:Verdana; color:ffffff;}
+
+.gbtn_eng {font-size:10px; font-family:verdana; color:333333;}
+A.gbtn_eng:link {font-size:10px; font-family:verdana; color:333333;}
+A.gbtn_eng:visited {font-size:10px; font-family:verdana; color:333333;}
+A.gbtn_eng:active {font-size:10px; font-family:verdana; color:333333;}
+A.gbtn_eng:hover {font-size:10px; font-family:verdana; color:ffffff;}
+
+.keyword {font-size:10pt; font-family:verdana, Verdana; color:666666;}
+A.keyword:link {font-size:10pt; font-family:verdana, Verdana; color:666666;}
+A.keyword:visited {font-size:10pt; font-family:verdana, Verdana; color:666666;}
+A.keyword:active {font-size:10pt; font-family:verdana, Verdana; color:666666;}
+A.keyword:hover {font-size:10pt; font-family:verdana, Verdana; color:308FC9;}
+
+
+.sbtn_kor {font-size:11px; font-family:Verdana; color:308FC9;}
+A.sbtn_kor:link {font-size:11px; font-family:Verdana; color:308FC9;}
+A.sbtn_kor:visited {font-size:11px; font-family:Verdana; color:308FC9;}
+A.sbtn_kor:active {font-size:11px; font-family:Verdana; color:308FC9;}
+A.sbtn_kor:hover {font-size:11px; font-family:Verdana; color:308FC9;}
+
+
+.sbtn_eng {font-size:10px; font-family:verdana; color:308FC9;}
+A.sbtn_eng:link {font-size:10px; font-family:verdana; color:308FC9;}
+A.sbtn_eng:visited {font-size:10px; font-family:verdana; color:308FC9;}
+A.sbtn_eng:active {font-size:10px; font-family:verdana; color:308FC9;}
+A.sbtn_eng:hover {font-size:10px; font-family:verdana; color:308FC9;}
+
+
+
+.info_link {font-size:11px; color:333333; letter-spacing:-1px;}
+A.info_link:link {font-size:11px; color:333333; letter-spacing:-1px;}
+A.info_link:visited {font-size:11px; color:333333; letter-spacing:-1px;}
+A.info_link:active {font-size:11px; color:333333; letter-spacing:-1px;}
+A.info_link:hover {font-size:11px; color:ffffff; letter-spacing:-1px;}
+
+
+.td_bodyt {padding:10px 10px 5px 10px;}
+.td_body {padding:0px 10px 0px 10px;}
+.td_body *{line-height:1.5em;}
+
+
+.td_info {padding:3px 3px 3px 5px;}
+
+
+.search_input {
+	border: 1px dashed #000000; 
+	height:22px; width:98%;	
+	background:url(./paper_dark.gif);
+	font-size: 9pt; 
+	font-family: Tahoma, Verdana; 
+	padding: 0px;
+	text-align:center;
+	}
+
+.search_btn 
+	{
+	border:solid 1px;
+	border-color:#888;
+	background-color:#ccc;
+	color:#333;
+	width:98%;
+	height:18px;
+	font-size:10px;
+	font-weight:bold;
+	font-family:tahoma;
+		
+}
+
+.input 
+	{
+	border: 1px solid #cccccc; 
+	background-color:ffffff;	
+	height:16px; 
+	color: #666666; 
+	font-size: 10pt; 
+	font-family: Tahoma, Verdana; 
+	 padding: 2px 2px 0px 4px;
+	}
+		
+.submit 
+	{
+	border:solid 1px;
+	border-color:888888;
+	background-color:cccccc;
+	width:50px;
+	height:18px;
+	font-size:10px;
+	font-weight:bold;
+		}
+
+.textarea 
+	{
+	border: 1px solid #675441; 
+	background:url(./img/paper_dark.gif);	
+	width:400px;
+	height:100px;
+	padding: 2px 2px 0px 4px;	
+	}
+
+
+
+
+.guest_submit 
+	{
+  border: 1px solid #000000;
+  font-family:Tahoma,verdana;
+  font-size:11px;
+  font-weight:bold; 
+  color:BF9F7B;
+  background:#4B443B;
+  height:20px;
+  width : 200px;
+  margin-top:3px;
+	} 
+
+
+
+
+.input_protect 
+{
+  border: 1px solid #ccc;
+  font-family:Tahoma,verdana;
+  font-size:10pt;
+  background:#fff;
+  height:20px;
+  width : 100px;
+	}   
+
+
+
+.submit_protect 
+	{
+  border: 1px solid #999;
+  font-family:Tahoma,verdana;
+  font-size:10pt;
+  font-weight:bold; 
+  color:#666;
+  background:#ccc;
+  height:20px;
+  width : 50px;
+
+	} 
